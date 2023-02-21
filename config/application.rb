@@ -10,6 +10,8 @@ module Rottenpotatoes
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    config.hosts << "872b9c1d891e4445b9a3dfcbd7333b56.vfs.cloud9.us-east-2.amazonaws.com"
+
 
     # Configuration for the application, engines, and railties goes here.
     #
