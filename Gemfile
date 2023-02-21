@@ -74,6 +74,7 @@ end
 #Newly added
 group :production do
   gem 'pg' # for Heroku deployment
+  gem 'sqlite3'
 end
 
 group :development, :test do
